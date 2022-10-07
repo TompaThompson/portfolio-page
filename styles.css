@@ -7,3 +7,64 @@ html {
   font-size: 62.5%;
   box-sizing: border-box;
 }
+header {
+  position: fixed;
+  top: 0;
+  height: 100px;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  background-color: #CD5C5C;
+}
+
+/* --- NAV ELEMENT --- */
+nav#navbar ul {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+  margin-right: 3rem;
+}
+nav#navbar li {
+  font-size: 1.6rem;
+
+}
+nav#navbar a {
+  text-decoration: none;
+  font-weight: 800;
+  color: #FFFFF0;
+}
+
+/* --- MAIN ELEMENT --- */
+main {
+  margin-top: 100px;
+}
+section#welcome-section {
+  width: 100%;
+  height: 100vh;
+  background-color: #F7E733;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+h1 {
+  font-size: 8rem;
+  font-weight: 900;
+}
+section#welcome-section p {
+  font-size: 2rem;
+}
+#projects {
+  width: 100%;
+  height: 100vh;
+  background-color: #2B2D42;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#projects h2 {
+  font-size: 4rem;
+  font-weight: 600;
+  color: #FFFFF0;
+}
