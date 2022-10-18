@@ -91,7 +91,7 @@ main {
   align-items: center;
   gap: 2em;
 }
-.project-holder {
+.project-tile {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -217,7 +217,8 @@ footer p {
     font-size: 1rem;
   }
   #socialmedia {
-    gap: .2em;
+    flex-direction: column;
+    gap: 0.2em;
     font-size: .6rem;
   }
   #socialmedia img {
